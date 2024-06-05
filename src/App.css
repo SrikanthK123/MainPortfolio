@@ -10,24 +10,62 @@
     height: 100%;
   }
   /* navbar.css */
-.ant-menu-item-selected {
-    background-color: #a2a8d3 !important; /* Change this to your desired color */
-    /*border-radius: 10px !important;*/
-  }
-  .ant-menu-item-selected,
-.ant-menu-overflow-item-selected,
-.ant-menu-overflow-item-rest-selected,
-.ant-menu-submenu-horizontal-selected,
-.ant-menu-submenu-active,
-.ant-menu-submenu-selected {
-  background-color: #53a8b6 !important; 
-  font-weight: bold !important;
-  
+
+/* Ensure the correct active class background color */
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.activeClassName {
+    background-color: #53a8b6; /* Set the active link background color */
+    color: #fff; /* Optional: change the text color when active */
 }
+
+/* Styling for the ul element */
+.nav-pills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001529; /* Background color of the menu */
+    border-radius: 10px;
+    padding: 4px;
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    left: 8px; /* Adjust as needed */
+    z-index: 1000;
+}
+
+/* Styling for the li elements inside the ul */
+.nav-pills .nav-item {
+    margin: 5px 0; /* Adjust spacing between icons */
+}
+
+/* Styling for the icons in the ul */
+.nav-pills .nav-link {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the nav links */
+.nav-link:hover {
+    background-color:#53a8b6; /* Adjust hover background color */
+}
+
+/* Ensure smooth transition for the background color change */
+.nav-pills .nav-link {
+    transition: background-color 0.3s;
+}
+
 @media (max-width: 767px) {
     .aboutPara {
       font-size: 15px;
-      text-align: justify;
+    }
+    #skills{
+      height: 80vh;
     }
   }
   
@@ -132,6 +170,7 @@
     .AboutUs{
       font-size: 10px;
     }
+   
   }
   
   @media (max-width: 1200px) {
@@ -148,6 +187,7 @@
 }
 @media (max-width: 400px) {
     .responsive-text { font-size: 11px; }
+  
 }
 #NewProjectCard {
   display: flex;
@@ -307,7 +347,7 @@
   }
 }
 #SkillsBtn{
-  font-size: 11px;
+  font-size: 10px;
   background-color:#385170;
   border-radius: 10px;
   min-width: 50px;
@@ -343,3 +383,17 @@
 .InstaID:hover{
   color: #e1309a;
 }
+::-webkit-scrollbar {
+  display: none;
+} 
+@media (min-width: 768px) {
+  #MenuIcons {
+    display: none;
+  }
+}
+@media (min-width: 1025px) {
+  #MenuIcons {
+    display: none;
+  }
+}
+

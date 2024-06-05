@@ -15,16 +15,16 @@ export const ProjectLists = [
     },
     {
         Title : "A Website that serves students to stay on-date with college",
-        Desc : "Created an application to Authenticate and Validate Products and Certificates using Blockchain, to tackle against",
+        Desc : "Made a website that helps students to stay-on date with college.",
         projectUrl : "#",
-        Language : ["ReactJS", "HTML", "CSS", "Javascript", "Bootstrap"],
+        Language : ["Python", "HTML", "CSS", "Javascript", "Bootstrap","Django","MySQL"],
         BGImageUrl : "https://img.freepik.com/free-vector/people-studying-remotely-e-learning-home-education-distance-learning-online-college_335657-3297.jpg?t=st=1703015905~exp=1703016505~hmac=2bf48b5e8a108c3f7186818ab9bc4ec7a2788b937765c10a5a799e4532e72dd1"
     },
     {
         Title : "Authentication and Validation of products and certificate using Blockchain",
-        Desc : "Made a website that helps students to stay-on date with college.",
+        Desc : "Created an application to Authenticate and Validate Products and Certificates using Blockchain, to tackle against",
         projectUrl : "#",
-        Language : ["ReactJS", "HTML", "CSS", "Javascript", "Bootstrap"],
+        Language : ["Python", "HTML", "CSS", "Javascript", "Bootstrap","Django","MySQL","BlockChain"],
         BGImageUrl : "https://tago.guru/wp-content/uploads/2022/11/using-blockchain-for-authentication.png"
     },
     {

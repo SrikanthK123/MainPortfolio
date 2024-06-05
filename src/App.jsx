@@ -13,6 +13,7 @@ import Projects from './components/Projects';
 import Certificates from './components/Certificates';
 import Skills from './components/Skills';
 import MainHomePage from './components/MainHomePage';
+import AllAboutMeComponents from './components/AllAboutMeComponents';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <Certificates />
   <Skills />*/}
       <MainHomePage />
-     { /*<FooterBox />*/}
+     <FooterBox />
       </>
   );
 }

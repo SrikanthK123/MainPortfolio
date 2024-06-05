@@ -3,10 +3,10 @@ import { ProjectLists } from './Data';
 
 const NewProjectList = () => {
   return (
-    <div className="container" id='NewProjectCard'>
+    <div className="container" id='NewProjectList'>
         
       <div className="row">
-      <h3 className='text-center fw-bold text-white mb-4' style={{fontSize:'30px',fontFamily:'cursive'}}>Projects</h3>
+      <h3 className='text-center fw-bold text-white mb-4' style={{fontSize:'30px',fontFamily:'cursive,monspace'}}>Projects</h3>
         {ProjectLists.map((item, index) => (
          <div className="col-12 mb-5 d-flex justify-content-center" key={index}>
          <div className="card">
@@ -21,7 +21,7 @@ const NewProjectList = () => {
            <div className="row no-margin-padding">
              {item.Language.map((lang, i) => (
                <div className="col no-margin-padding" key={i}>
-                 <button className="text-white" id='SkillsBtn'>{String(lang)}</button>
+                 <div className=" btn btn text-white" id='SkillsBtn'>{String(lang)}</div>
                </div>
              ))}
            </div>
