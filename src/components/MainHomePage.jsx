@@ -9,7 +9,7 @@ import Certificates from './Certificates';
 import Skills from './Skills';
 import { FaHome, FaUser, FaProjectDiagram, FaCertificate, FaTools } from 'react-icons/fa';
 import Test from './Test';
-
+import AnimationMain from "../Images/AnimationMain.gif"
 const MainHomePage = () => {
   return (
     <div className='HomePage' id=''>

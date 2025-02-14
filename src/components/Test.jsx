@@ -2,11 +2,13 @@ import { Link } from 'react-scroll';
 import React from 'react';
 import { Layout, Menu, Row, Col } from 'antd';
 import { FaHome, FaUser, FaProjectDiagram, FaCertificate, FaTools } from 'react-icons/fa';
+import BGPattern from "../Images/BGPattern.gif"
+import AnimationMain from "../Images/AnimationMain.gif"
 
 const Test = () => {
   return (
     <div id='Main'>
-      <div style={{ height: '100%', padding: '10%', margin: '5px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',backgroundColor:'#385170',borderRadius:'15px',boxShadow:'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px' }}>
+      <div id='Intro' style={{ height: '100%', padding: '10%', margin: '5px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',borderRadius:'15px',boxShadow:'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px', }}>
               <ul className="nav nav-pills" id='MenuIcons' style={{ backgroundColor: 'rgb(0 21 41 / 52%)', padding: '4px 2px', borderRadius: '10px', position: 'fixed', zIndex: '1000' }}>
   <li className="nav-item">
     <Link
@@ -81,6 +83,7 @@ const Test = () => {
 </ul>
 
 
+<p class='text-white MailBox'><img src='https://cdn-icons-png.flaticon.com/128/888/888853.png' style={{width:'25px',height:'25px'}} /> - <a href="mailto:kondapakasrikanth2010@gmail.com" id='Email' >kondapakasrikanth2010@gmail.com</a></p>
 
                 <h2 className='text-white' style={{ textAlign: 'center', marginBottom: '20px', fontFamily: 'ui-serif' }}>I'm Srikanth, a web developer who loves making cool websites. 🚀</h2>
                 <p className='text-white' id='MyDesc' style={{ textAlign: 'center', fontSize: '17px' }}>I started because I wanted to bring my ideas to life online. Let's make the web awesome!</p>
@@ -107,6 +110,13 @@ const Test = () => {
                         </svg>
                       </a>
                     </div>
+                   {/* <div className="col text-white">
+                      <a href="https://instagram.com/srikanth.kondapaka?igshid=NGVhN2U2NjQ0Yg==" className='InstaID'>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+</svg>
+                      </a>
+                    </div>*/}
                   </div>
                 </div>
                 <div>

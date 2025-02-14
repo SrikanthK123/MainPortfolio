@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { CertificateList } from './Data';
 import { Image, Row, Col } from 'antd';
