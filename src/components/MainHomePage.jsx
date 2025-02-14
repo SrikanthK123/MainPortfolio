@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Layout, Row, Col } from 'antd';
 import { Content } from 'antd/es/layout/layout';
 import React from 'react';

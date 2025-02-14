@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import { Link } from 'react-scroll';
 import React from 'react';
 import { Layout, Menu, Row, Col } from 'antd';
@@ -13,7 +15,7 @@ const Test = () => {
   <li className="nav-item">
     <Link
       className="nav-link"
-      activeClass="active"
+      activeclassName="active"
       to="Main"
       spy={true}
       smooth={true}
@@ -27,7 +29,7 @@ const Test = () => {
   <li className="nav-item">
     <Link
       className="nav-link"
-      activeClass="active"
+      activeclassName="active"
       to="about"
       spy={true}
       smooth={true}
@@ -41,7 +43,7 @@ const Test = () => {
   <li className="nav-item">
     <Link
       className="nav-link"
-      activeClass="active"
+      activeclassName="active"
       to="NewProjectList"
       spy={true}
       smooth={true}
@@ -55,7 +57,7 @@ const Test = () => {
   <li className="nav-item">
     <Link
       className="nav-link"
-      activeClass="active"
+      activeclassName="active"
       to="certificate"
       spy={true}
       smooth={true}
@@ -69,7 +71,7 @@ const Test = () => {
   <li className="nav-item">
     <Link
       className="nav-link"
-      activeClass="active"
+      activeclassName="active"
       to="skills"
       spy={true}
       smooth={true}
@@ -83,7 +85,7 @@ const Test = () => {
 </ul>
 
 
-<p class='text-white MailBox'><img src='https://cdn-icons-png.flaticon.com/128/888/888853.png' style={{width:'25px',height:'25px'}} /> - <a href="mailto:kondapakasrikanth2010@gmail.com" id='Email' >kondapakasrikanth2010@gmail.com</a></p>
+<p className='text-white MailBox'><img src='https://cdn-icons-png.flaticon.com/128/888/888853.png' style={{width:'25px',height:'25px'}} /> - <a href="mailto:kondapakasrikanth2010@gmail.com" id='Email' >kondapakasrikanth2010@gmail.com</a></p>
 
                 <h2 className='text-white' style={{ textAlign: 'center', marginBottom: '20px', fontFamily: 'ui-serif' }}>I'm Srikanth, a web developer who loves making cool websites. 🚀</h2>
                 <p className='text-white' id='MyDesc' style={{ textAlign: 'center', fontSize: '17px' }}>I started because I wanted to bring my ideas to life online. Let's make the web awesome!</p>
@@ -112,7 +114,7 @@ const Test = () => {
                     </div>
                    {/* <div className="col text-white">
                       <a href="https://instagram.com/srikanth.kondapaka?igshid=NGVhN2U2NjQ0Yg==" className='InstaID'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-envelope-fill" viewBox="0 0 16 16">
   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
 </svg>
                       </a>

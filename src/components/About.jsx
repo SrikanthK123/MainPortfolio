@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import Layout, { Content } from 'antd/es/layout/layout';
 import React from 'react';
 
