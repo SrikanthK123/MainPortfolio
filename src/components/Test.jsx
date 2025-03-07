@@ -87,8 +87,15 @@ const Test = () => {
 
 <p className='text-white MailBox'><img src='https://cdn-icons-png.flaticon.com/128/888/888853.png' style={{width:'25px',height:'25px'}} /> - <a href="mailto:kondapakasrikanth2010@gmail.com" id='Email' >kondapakasrikanth2010@gmail.com</a></p>
 
-                <h2 className='text-white' style={{ textAlign: 'center', marginBottom: '20px', fontFamily: 'ui-serif' }}>I'm Srikanth, a web developer who loves making cool websites. 🚀</h2>
-                <p className='text-white' id='MyDesc' style={{ textAlign: 'center', fontSize: '17px' }}>I started because I wanted to bring my ideas to life online. Let's make the web awesome!</p>
+<h2 className='text-white' style={{ textAlign: 'center', marginBottom: '20px', fontFamily: 'ui-serif' }}>
+  I'm Srikanth, a web developer and data engineering enthusiast. 🚀
+</h2>
+<p className='text-white' id='MyDesc' style={{ textAlign: 'center', fontSize: '17px' }}>
+  I started because I wanted to bring my ideas to life online. Let's make the web awesome! 
+  I'm also exploring data engineering, turning raw data into powerful insights.
+</p>
+
+
                 <div>
                   <div className="row my-3">
                     <div className="col text-white">

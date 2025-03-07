@@ -22,10 +22,10 @@ const About = () => {
             boxShadow: 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset',
             backgroundColor: 'white',
           }}>
-            <h3 className="text-center fw-bold responsive-text" style={{ fontSize: '30px', fontFamily: 'cursive, monospace' }}>About Us</h3>
+            <h3 className="text-center fw-bold responsive-text" style={{ fontSize: '30px', fontFamily: 'cursive, monospace' }}>About Me</h3>
             <div>
-              <p className="aboutPara responsive-text">Hey there! I'm Srikanth, a passionate web developer with a love for creating engaging and user-friendly websites. 💻 With expertise in HTML, CSS, JavaScript, and more, I thrive on turning ideas into reality through code.</p>
-              <p className="aboutPara responsive-text">Driven by a desire to learn and grow, I'm constantly exploring new technologies and techniques to stay ahead in this ever-evolving field. 🚀 From building dynamic web applications to solving complex coding challenges, I'm always up for a new adventure in the world of web development. Let's create something amazing together! 🌟</p>
+              <p className="aboutPara responsive-text">Hey there! I'm Srikanth, a passionate web developer and aspiring data engineer with a love for creating engaging and user-friendly websites and efficient data solutions. 💻 With expertise in HTML, CSS, JavaScript, Python, and more, I thrive on turning ideas into reality through code.</p>
+              <p className="aboutPara responsive-text">As a fresher in data engineering, I'm building skills in big data technologies like Apache Spark, PySpark, and Hadoop. I’m familiar with cloud platforms like Microsoft Azure (Azure Data Lake, Azure Data Factory, Databricks) and working with data pipelines and ETL processes. 🚀 My goal is to design scalable data solutions and ensure data quality and efficiency in every project I work on. Let’s create something amazing together! 🌟</p>
             </div>
           </div>
         </Content>

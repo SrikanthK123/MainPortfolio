@@ -7,7 +7,8 @@ import Udemy from "../Images/UdemyCertificate.jpg"
 import NQT from "../Images/NqtCertificate.jpg"
 import CodeVita from "../Images/CodeVita.jpg"
 import AICertificate  from'../Images/AI-ML Course.jpg'
-import LinkedInGenAI from '../Images/AIGenerativeCertificates_1.jpg'
+import LinkedInGenAI from '../Images/Azure_Data_Engineer.jpg' 
+import AzureDE from '../Images/AIGenerativeCertificates_1.jpg'
 import { Image } from "antd"
 export const ProjectLists = [
     {
@@ -122,6 +123,8 @@ export const CertificateList = [
     },
     {
         TitleName : LinkedInGenAI
+    },{
+        TitleName : AzureDE
     }
 ]
 
