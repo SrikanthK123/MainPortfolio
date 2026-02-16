@@ -1,13 +1,13 @@
-import React from 'react'
 import { Layout } from 'antd'
 
 
-const { Header, Footer, Content } = Layout;
+const { Footer } = Layout;
 
 const FooterBox = () => {
+  const Year = new Date().getFullYear();
   return (
     <div className='footer' >
-      <Footer style={{ textAlign: 'center',backgroundColor:'#001529',color:'white' }}>Portfolio ©2024 Created by Srikanth</Footer>
+      <Footer style={{ textAlign: 'center',backgroundColor:'#001529',color:'white' }}>Portfolio ©{Year} Created by Srikanth</Footer>
     </div>
   )
 }
